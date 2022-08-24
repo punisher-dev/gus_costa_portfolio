@@ -77,4 +77,5 @@ a{
 .social-section{
     display: flex;
     flex-wrap: wrap;
+    height: 300px;
 }
