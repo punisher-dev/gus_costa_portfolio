@@ -1,0 +1,74 @@
+.projects{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.projects article{
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    margin: 5px;
+    max-width: 300px;
+    min-width: 280px;
+    display: inline-block;
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 100px;
+}
+
+.projects p{
+    color: white;
+    font-weight: 500;
+    padding-bottom: 25px;
+    font-size: 1rem;
+}
+
+.projects h4{
+    color: white;
+}
+
+.projects h5{
+    color: white;
+}
+
+
+#macros{
+    background-image: url("images/macros.jpg");
+    background-size: cover;
+}
+
+#weather{
+    background-image: url("images/weather.jpg");
+    background-size: cover;
+}
+
+#hotel{
+    background-image: url("images/hotel.jpg");
+    background-size: cover;
+}
+
+article div{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px black;
+    height: 400px;
+}
+
+.button{
+    background-color: #E85D54;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.button:hover{
+    padding: 10px 14px;
+}
+
