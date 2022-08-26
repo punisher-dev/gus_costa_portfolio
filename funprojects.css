@@ -1,3 +1,5 @@
+/* Styling of the main and list section only of my blog page */
+
 main{
     margin: auto;
 }
@@ -22,6 +24,7 @@ li a:hover{
     font-size: 16px;
 }
 
+/* Styling of the blog section of my blog page */
 .blog{
     max-width: 950px;
     border: 1px solid #CFCFCF;
@@ -65,6 +68,7 @@ li a:hover{
     margin-bottom: 100px;
 }
 
+/* Styling of the bigger screen size for responsiveness */
 @media screen and (min-width: 550px){
     .blog article{
         max-width: 550px;

@@ -1,3 +1,5 @@
+/* Styling of the projects section */
+
 .projects{
     justify-content: center;
     align-items: center;
@@ -33,7 +35,7 @@
     color: white;
 }
 
-
+/* Styling of the background images behind each project targeted by an ID */
 #macros{
     background-image: url("images/macros.jpg");
     background-size: cover;
@@ -49,6 +51,7 @@
     background-size: cover;
 }
 
+/* Styling of the written part of the projects section */
 article div{
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;

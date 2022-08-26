@@ -1,3 +1,5 @@
+/* Styling of the social Icons that link to the social pages */
+
 .social{
     background-color: #E85D54;
     width: 150px;
@@ -29,11 +31,15 @@ a{
     text-decoration: none;
 }
 
+/* Styling of the section that contains the two social button links */
 .social-section{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    height: 300px;
 }
 
+/* Styling of the blue section only for the contact page */
 .blue-contact{
     background-color: #55799A;
     color: white;
@@ -69,13 +75,9 @@ a{
     font-size: 150px;
 }
 
+/* Styling of the ID tag sayhello to show that the contact page is the one selected */
 #sayhello{
     color: #E85D54;
     border: 1px solid #E85D54;
 }
 
-.social-section{
-    display: flex;
-    flex-wrap: wrap;
-    height: 300px;
-}

@@ -60,6 +60,7 @@ nav a:active {
     padding: 5px 5px;
 }
 
+/* Styling of the sayhello button in the navbar */
 .sayhello{
     color: #55799A;
     padding: 10px 20px;
@@ -80,11 +81,12 @@ nav a:active {
     border: 1px solid white;
 }
 
-
+/* Styling that shows when a anavbar item is clicked */
 #clicked{
     color: #E85D54;
 }
 
+/* styling of the hero session */
 #hero {
     display: flex;
     flex-direction: column;
@@ -115,6 +117,8 @@ nav a:active {
     text-align: center;
 }
 
+/* Styling of the blue section of the website */
+
 .blue-section{
     background-color: #55799A;
     color: white;
@@ -142,6 +146,8 @@ nav a:active {
     font-weight: 500;
 }
 
+/* styling of the resume link */
+
 #resume{
     color: white;
     font-size: 150px;
@@ -156,6 +162,7 @@ h3{
     margin: 1rem 0;
 }
 
+/* Styiling of the Skills section */
 .skills{
     justify-content: center;
     align-items: center;
@@ -198,6 +205,7 @@ h5{
     font-size: 1rem;
 }
 
+/* Styling of the symbols for each of the skills, Design, Frontend, Backend */
 .skills-symbol{
     background-color: #E85D54;
     width: 80px;
@@ -213,6 +221,8 @@ h5{
     font-size: 40px;
     margin-top: 25%;
 }
+
+/* Styling of the interests section */
 
 .interests{
     display: flex;
@@ -251,6 +261,8 @@ figure img{
 .interests article{
     padding: 50px;
 }
+
+/* Styling of the footer section */
 
 footer{
     background-color: #55799A;
@@ -294,6 +306,8 @@ footer i:hover {
     display: inline-block;
     margin: 5px 20px;
 }
+
+/* Styling of the buttons */
 
 .button{
     background-color: #E85D54;
