@@ -51,15 +51,14 @@ Click [here](https://github.com/Guscosta88/GusCosta_T1A2) To open Github Repo.
 
 ## **Target audience:**
 
-- A hiring manager, a possible customer, a recruiter.
+- A hiring manager, a possible customer, a recruiter, educators.
 
 
 ## **Tech stack:**
 
 - html 
 - Css 
-- Javascript 
-- Package AOS for animations 
+- Javascript Package AOS for animations 
 - Github 
 - Netlify 
 - Ubuntu terminal 
