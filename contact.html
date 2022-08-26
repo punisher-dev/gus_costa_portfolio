@@ -4,8 +4,9 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Gus Costa Portfolio</title>
+        <title>Gus Costa Contact</title>
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="contact.css" />
         <script src="https://kit.fontawesome.com/02cd875fbf.js" crossorigin="anonymous"></script>
@@ -13,7 +14,7 @@
     <body>
         <!-- Header -->
         <header>
-            <a href="./index.html"><img id="brand" src="images/logo.svg" /></a>
+            <a href="./index.html"><img id="brand" src="images/logo.svg" alt="Gus Costa Logo" /></a>
             <!-- Navigation -->
             <nav>
                 <a href="./index.html">Home</a>
@@ -30,7 +31,7 @@
         <!-- Main -->
         <main>
             <section class="blue-contact">
-                <article>
+                <article data-aos="zoom-in" data-aos-duration="1200">
                     <p><b>Location:</b> Based in Sydney 
                         but also available for remote 
                         work anywhere in Australia. </p>
@@ -42,10 +43,10 @@
             </section>
 
             <section class="social-section">
-                <article>
+                <article data-aos="fade-right" data-aos-duration="1200">
                     <a class="social" href="https://github.com/Guscosta88"><i class="fa fa-brands fa-github"></i></a>
                 </article>
-                <article>
+                <article data-aos="fade-left" data-aos-duration="1200">
                     <a class="social" href="https://linkedin.com/in/gus-dacosta"><i class="fa fa-brands fa-linkedin"></i></a>
                 </article>
             </section>
@@ -58,5 +59,9 @@
                 <p>Copyright &copy; Gus Costa 2022</p>
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>

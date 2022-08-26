@@ -58,17 +58,4 @@ article div{
     height: 400px;
 }
 
-.button{
-    background-color: #E85D54;
-    color: white;
-    text-decoration: none;
-    padding: 8px 12px;
-    border-radius: 15px;
-    margin: 10px;
-    box-shadow: 2px 2px 5px black;
-}
-
-.button:hover{
-    padding: 10px 14px;
-}
 

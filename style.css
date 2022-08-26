@@ -142,7 +142,7 @@ nav a:active {
     font-weight: 500;
 }
 
-.blue-section a{
+#resume{
     color: white;
     font-size: 150px;
 }
@@ -174,6 +174,7 @@ h3{
     min-width: 350px;
     display: inline-block;
     background-color: white;
+    box-shadow: 2px 2px 5px black;
 }
 
 h4{
@@ -240,11 +241,11 @@ h5{
 }
 
 figure img{
-    border: 1px solid #CFCFCF;
     border-radius: 10px;
     background-size: cover;
     width: 250px;
     height: 250px;
+    box-shadow: 2px 2px 5px black;
 }
 
 .interests article{
@@ -294,3 +295,16 @@ footer i:hover {
     margin: 5px 20px;
 }
 
+.button{
+    background-color: #E85D54;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.button:hover{
+    padding: 10px 14px;
+}

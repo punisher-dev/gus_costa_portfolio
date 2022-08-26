@@ -6,13 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Gus Costa Portfolio</title>
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="style.css" />
         <script src="https://kit.fontawesome.com/02cd875fbf.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!-- Header -->
         <header>
-            <a href="./index.html"><img id="brand" src="images/logo.svg" /></a>
+            <a href="./index.html"><img id="brand" src="images/logo.svg" alt="Gus Costa Logo"/></a>
             <!-- Navigation -->
             <nav>
                 <a href="./index.html" id="clicked">Home</a>
@@ -25,24 +26,24 @@
         <section id="hero">
             <h1>Full Stack Web Developer, Designer</h1>
             <h2>Programming and Designing are both huge passions of mine.</h2>
-            <img src="images/avatar.png" alt="Gus Costa Avatar Picture" />
+            <img src="images/avatar.png" alt="Gus Costa Avatar Picture" id="opacity" data-aos="fade-in"/>
         </section>
         <!-- Main -->
         <main>
             <section class="blue-section">
-                <article>
+                <article data-aos="fade-right" data-aos-duration="1200">
                     <h3>Hi, I’m Gus. Nice to meet you.</h3>
                     <p>Comming from a successful former career as a designer I decided to challenge myself even further and put all my efforts into building a career in technology.
                         After completing a Diploma of website development on TAFE, working on many different projects, from simple websites to complex interactions with mySQL databases, CRUDs and also enrolling on a Diploma of Information Technology at Coder Academy, my taste for web development and programming just grows the more I learn.</p>
                 </article>
-                <article>
+                <article data-aos="fade-left" data-aos-duration="1200">
                     <h3>Resume</h3>
-                    <a href="source/resume.pdf"><i class="fa fa-solid fa-address-card"></i></a>
+                    <a href="source/resume.pdf" id="resume"><i class="fa fa-solid fa-address-card"></i></a>
                 </article>
             </section>
 
             <section class="skills">
-                <article>
+                <article data-aos="fade-right" data-aos-duration="1200">
                     <p class="skills-symbol"><i class="fa fa-light fa-pen"></i></p>
                     <h4>Design</h4>
 
@@ -54,7 +55,7 @@
                     <p>Solid Works</p>
                     <p>CAD</p>
                 </article>
-                <article>
+                <article data-aos="zoom-in" data-aos-duration="1200">
                     <p class="skills-symbol"><i class="fa fa-light fa-desktop"></i></p>
                     <h4>Front End</h4>
 
@@ -67,7 +68,7 @@
                     <p>Vue</p>
 
                 </article>
-                <article>
+                <article data-aos="fade-left" data-aos-duration="1200">
                     <p class="skills-symbol"><i class="fa fa-light fa-server"></i></p>
                     <h4>Back End</h4>
 
@@ -82,11 +83,11 @@
             </section>
             <section class="interests">
                 <figure>
-                    <img src="images/dogs.jpg" alt="Gus Costa with dogs" />
-                    <img src="images/music.jpg" alt="Gus Costa playing music" />
-                    <img src="images/husband.jpg" alt="Gus Costa with wife" />
+                    <img src="images/dogs.jpg" alt="Gus Costa with dogs" data-aos="fade-right" data-aos-duration="1200"/>
+                    <img src="images/music.jpg" alt="Gus Costa playing music" data-aos="zoom-in" data-aos-duration="1200"/>
+                    <img src="images/husband.jpg" alt="Gus Costa with wife" data-aos="zoom-in" data-aos-duration="1200"/>
                 </figure>
-                <article>
+                <article data-aos="fade-left" data-aos-duration="1200">
                     <h4>Interests and Hobbies</h4>
                     <p>I am also a multi instrumentalist musician, composer, cook, husband and I have two sausage dogs.</p>
                 </article>
@@ -100,5 +101,9 @@
                 <p>Copyright &copy; Gus Costa 2022</p>
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
