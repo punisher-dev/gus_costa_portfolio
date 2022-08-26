@@ -30,14 +30,23 @@ Click [here](https://github.com/Guscosta88/GusCosta_T1A2) To open Github Repo.
 
 
 ## **Sitemap**
-![Site Map](./images/sitemap.jpg)
+![Site Map](./images/T1A2Sitemap.png)
 
 ## **Screenshots:**
 
+#### **Home Page**
 ![Home Page](./images/home.jpg)
+
+#### **Projects page**
 ![Projects page](./images/projects.jpg)
+
+#### **Blog page**
 ![Blog page](./images/blog.jpg)
+
+#### **My Blog page**
 ![My Blog page](./images/myblog.jpg)
+
+#### **Contact page**
 ![Contact page](./images/contact.jpg)
 
 ## **Target audience:**
