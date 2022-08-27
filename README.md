@@ -6,6 +6,8 @@ Click [here](https://guscostat1a2.netlify.app/) To open portfolio website.
 
 Click [here](https://github.com/Guscosta88/GusCosta_T1A2) To open Github Repo.
 
+Click [here](https://youtu.be/qFXFjf9qJko) To open my Youtube video showing the whole process.
+
 
 ## **Description:**
 
