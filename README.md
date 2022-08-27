@@ -60,7 +60,7 @@ Click [here](https://youtu.be/qFXFjf9qJko) To open my Youtube video showing the 
 
 - html 
 - Css 
-- Javascript Package AOS for animations 
+- Javascript Package AOS for animations Click [here](https://github.com/michalsnik/aos)
 - Github 
 - Netlify 
 - Ubuntu terminal 
