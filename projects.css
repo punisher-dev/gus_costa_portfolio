@@ -36,6 +36,11 @@
 }
 
 /* Styling of the background images behind each project targeted by an ID */
+#wine{
+    background-image: url("images/wine.jpg");
+    background-size: cover;
+}
+
 #macros{
     background-image: url("images/macros.jpg");
     background-size: cover;
