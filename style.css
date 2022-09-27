@@ -325,3 +325,11 @@ footer i:hover {
 .button:hover{
     padding: 10px 14px;
 }
+
+#video{
+    color: white;
+}
+
+#video:hover{
+    color: lightgray;
+}
