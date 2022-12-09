@@ -41,6 +41,11 @@
     background-size: cover;
 }
 
+#bitcoin{
+    background-image: url("images/bitcoin.jpg");
+    background-size: cover;
+}
+
 #macros{
     background-image: url("images/macros.jpg");
     background-size: cover;
@@ -58,7 +63,7 @@
 
 /* Styling of the written part of the projects section */
 article div{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 10px;
     margin-bottom: 30px;
     padding: 20px;
