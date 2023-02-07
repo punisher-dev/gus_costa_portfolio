@@ -41,6 +41,22 @@
     background-size: cover;
 }
 
+#wine_api{
+    background-image: url("images/wine_api.jpg");
+    background-size: cover;
+}
+
+#bbq{
+    background-image: url("images/bbq.png");
+    background-size: cover;
+}
+
+#bbq_back{
+    background-image: url("images/bbq.png");
+    background-size: cover;
+    background-position: 400px;
+}
+
 #bitcoin{
     background-image: url("images/bitcoin.jpg");
     background-size: cover;
