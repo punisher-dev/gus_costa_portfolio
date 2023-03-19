@@ -30,10 +30,11 @@ header {
 /* Style of the Navbar Logo targeting the brand ID */
 #brand {
     height: 40px;
+    transition: all .2s ease-in-out;
 }
 
 #brand:hover{
-    height: 42px;
+    transform: scale(1.3); 
 }
 
 /* Styling of the items of the navbar */
@@ -42,23 +43,23 @@ nav a {
     text-decoration: none;
     margin: 0 0.3rem;
     font-weight: 100;
+    transition: all .2s ease-in-out;
 }
 
 nav a:hover {
     color: #E85D54;
     text-decoration: none;
-    margin: 0 0.5rem;
-    font-size: 17px;
 }
 
 nav a:active {
     color: white;
     text-decoration: none;
-    margin: 0 0.5rem;
     background-color: #55799A;
-    border-radius: 5px;
-    padding: 5px 5px;
+    border-radius: 3px;
+    padding: 3px 3px;
+    /* margin: 0 0.5rem; */
 }
+
 
 /* Styling of the sayhello button in the navbar */
 .sayhello{
@@ -66,16 +67,15 @@ nav a:active {
     padding: 10px 20px;
     border-radius: 20px;
     border: 1px solid #55799A;
+    transition: all .2s ease-in-out;
 }
 
 .sayhello:hover{
-    font-size: 17px;
     color: #E85D54;
     border: 1px solid #E85D54;
 }
 
 .sayhello:active{
-    font-size: 17px;
     color: white;
     background-color: #55799A;
     border: 1px solid white;
@@ -85,6 +85,11 @@ nav a:active {
 #clicked{
     color: #E85D54;
 }
+
+#clicked:hover{
+    color: #55799A;
+}
+
 
 /* styling of the hero session */
 #hero {
@@ -151,6 +156,12 @@ nav a:active {
 #resume{
     color: white;
     font-size: 150px;
+    transition: all .2s ease-in-out;
+}
+
+#resume:hover{
+    transform: scale(1.1);
+    color: lightgray;
 }
 
 
@@ -282,12 +293,13 @@ footer{
 footer i{
     font-size: 20px;
     color: white;
+    transition: all .2s ease-in-out;
    
 }
 
 footer i:hover {
-    font-size: 22px;
     color: #E85D54;
+    transform: scale(1.5);
 }
 
 .footer{
@@ -320,10 +332,12 @@ footer i:hover {
     border-radius: 15px;
     margin: 10px;
     box-shadow: 2px 2px 5px black;
+    transition: all .2s ease-in-out;
 }
 
 .button:hover{
-    padding: 10px 14px;
+    padding: 10px 12px;
+    background-color: #55799A;
 }
 
 #video{
