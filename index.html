@@ -94,43 +94,81 @@
                     </div>
                 </div>
             </div>
+
             <div class="experiences">
                 <h1 id="experience">experience</h1>
                 <div>
-                    <?php
-                    
-                    $json = file_get_contents('experiences.json');
-                    $experiences = json_decode($json, true);
-
-                    foreach ($experiences as $experience) {
-                        echo '<div class="experience" data-aos="zoom-in" data-aos-duration="1200">';
-                        echo '<div class="experience-titles row" data-accordion="accordion-'.$experience['id'].'">';
-                        echo '<h2 class="col-sm">' . $experience['title'] . '</h2>';
-                        echo '<h2 class="col-sm" id="work-date">' . $experience['date'] . '</h2>';
-                        echo '</div>';
-                        echo '<div class="accordion" id="accordion-'.$experience['id'].'">';
-                        echo '<div class="experience-content">';
-                        foreach ($experience['content'] as $paragraph) {
-                            echo '<p>' . $paragraph . '</p>';
-                        }
-                        echo '</div>';
-                        echo '<div class="experience-links">';
-                        echo '<a class="d-flex align-items-baseline" href="' . $experience['href'] . '"><p>' . $experience['link'] . '</p><i class="fa-solid fa-arrow-up-right-from-square"></i></a>';
-                        echo '</div>';
-                        echo '<div class="experience-skills row">';
-                        foreach ($experience['skills'] as $skill) {
-                            echo '<span class="col-sm">' . $skill . '</span>';
-                        }
-                        echo '</div>';
-                        echo '</div>';
-                        echo '</div>';
-                    }
-                    ?>
-
+                    <div class="experience" data-aos="zoom-in" data-aos-duration="1200">
+                        <div class="experience-titles row" data-accordion="accordion-1">
+                            <h2 class="col-sm">Jala Design</h2>
+                            <h2 class="col-sm" id="work-date">Mar 2023 - Current</h2>
+                        </div>
+                        <div class="accordion" id="accordion-1">
+                            <div class="experience-content">
+                                <p>In my ongoing experience at Jala Design, I've immersed myself in a dynamic web development environment, improving skills in WordPress, Advanced Custom Fields, and various technologies like PHP, jQuery, Figma, Bootstrap, Sass, Gulp, and Grunt. I contribute to projects with attention to detail, ensuring the delivery of functional and user-centered web solutions.</p>
+                                <p>My role extends beyond technical aspects; actively engaged in customer desk service and customer meetings, I bring a comprehensive approach to understanding and meeting client needs. Collaboration and adaptability continue to define my experience at Jala Design, working alongside experienced professionals and growing exponentially.</p>
+                                <p>Excited for the future, I remain committed to Jala Design, contributing actively and embracing the ever-evolving nature of web development. This journey has provided me with valuable insights and a passion for creating unique digital solutions.</p>
+                            </div>
+                            <div class="experience-links">
+                                <a class="d-flex align-items-baseline" href="https://www.jaladesign.com.au"><p>Jala Design</p><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                            <div class="experience-skills row">
+                                <span class="col-sm">PHP</span>
+                                <span class="col-sm">Javascript</span>
+                                <span class="col-sm">SCSS</span>
+                                <span class="col-sm">WordPress</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="experience" data-aos="zoom-in" data-aos-duration="1200">
+                        <div class="experience-titles row" data-accordion="accordion-2">
+                            <h2 class="col-sm">Guru Projects</h2>
+                            <h2 class="col-sm" id="work-date">Jul 2021 - Jan 2022</h2>
+                        </div>
+                        <div class="accordion" id="accordion-2">
+                            <div class="experience-content">
+                                <p>In my six-month experience at Guru, I assumed responsibility for managing the design process. This entailed transforming conceptual architectural designs into efficient and cost-effective physical products and production systems. My contributions led to improvements in agility, quality, organization, and economy within the team so much so that within one month of joining, my manager entrusted me with overseeing the entire process, allowing him to concentrate on other responsibilities.</p>
+                                <p>This hands-on experience deepened my understanding of project management and the intricate relationship between design and production. It improved my ability to comprehend complex tasks and contribute meaningfully to organizational goals. My time at Guru was marked by achievements aligned with the company's objectives, showcasing my capability for effective collaboration and leadership in a dynamic professional setting.</p>
+                                <p>Looking forward, I carry valuable lessons and accomplishments from my experience at Guru. The challenges and successes during this period have built up my skills and determination to succeed in similar roles, actively contributing to innovative and impactful projects.</p>
+                            </div>
+                            <div class="experience-links">
+                                <a class="d-flex align-items-baseline" href="https://guruprojects.com/"><p>Guru Projects</p><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                            <div class="experience-skills row">
+                                <span class="col-sm">Engineering</span>
+                                <span class="col-sm">G-code</span>
+                                <span class="col-sm">C.N.C.</span>
+                                <span class="col-sm">3.D Modelling</span>
+                                <span class="col-sm">CAD</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="experience" data-aos="zoom-in" data-aos-duration="1200">
+                        <div class="experience-titles row" data-accordion="accordion-3">
+                            <h2 class="col-sm">Design Hub</h2>
+                            <h2 class="col-sm" id="work-date">Jan 2015 - Jan 2020</h2>
+                        </div>
+                        <div class="accordion" id="accordion-3">
+                            <div class="experience-content">
+                                <p>Commencing my journey at Designhub as a Junior, I quickly ascended the ranks through dedication and hard work. Within the first year, the company sponsored my visa.</p>
+                                <p>In a remarkably short span of three years, I earned a promotion to manage production, taking charge of crucial aspects of the design process.</p>
+                                <p>My contributions played an important role in enhancing the team's performance, allowing us to deliver projects with exceptional quality, agility, and precision. This trajectory showcased the transformative impact of commitment and competence in a professional setting. The time at Designhub offered me experiences for continued growth and success in future endeavors.</p>
+                            </div>
+                            <div class="experience-links">
+                                <a class="d-flex align-items-baseline" href="https://www.designhub.com.au/"><p>Design Hub</p><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                            <div class="experience-skills row">
+                                <span class="col-sm">Engineering</span>
+                                <span class="col-sm">G-code</span>
+                                <span class="col-sm">C.N.C.</span>
+                                <span class="col-sm">3.D Modelling</span>
+                                <span class="col-sm">CAD</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="contact">
-
             </div>
         </main>
         <footer>
