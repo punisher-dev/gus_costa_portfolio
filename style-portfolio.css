@@ -436,7 +436,7 @@ a:hover{
 .overlay-links{
     text-align: center;
     font-size: 3rem;
-    margin-top: 8rem;
+    margin: 8rem 0 8rem 0;
 }
 
 .overlay-links a{
