@@ -95,6 +95,7 @@ main{
     align-items: center;
     text-align: left;
     line-height: 2rem;
+    padding-bottom: 3rem;
 }
 
 .dark h1 strong{
@@ -155,9 +156,19 @@ main{
     align-items: baseline;
 }
 
-#text-cursor:hover{
+.dark #text-cursor:hover{
     cursor: pointer;
     color: #FFFFFF;
+}
+
+.high-beam #text-cursor:hover{
+    cursor: pointer;
+    color: #AD00FF;
+}
+
+.light #text-cursor:hover{
+    cursor: pointer;
+    color: #202020;
 }
 
 /* Footer */
