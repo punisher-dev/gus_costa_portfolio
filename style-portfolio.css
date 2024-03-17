@@ -308,12 +308,13 @@ footer ul li {
     font-weight: 100;
     font-size: 25px;
     text-align: end;
+    padding-bottom: 1rem;
 }
 
 .experience-titles{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 .experience-links{
@@ -414,6 +415,32 @@ a:hover{
 #back-button{
     transform: rotate(90deg);
     font-size: 3rem;
+}
+
+#experience-button{
+    text-align: end;
+    font-size: 3rem;
+    color: #6AAD2B;
+    position: absolute;
+    bottom: 0;
+    right: 2rem;
+    padding-bottom: 1rem;
+    transition: all 0.5s ease;
+}
+
+#experience-button div{
+    transition: all 0.5s ease;
+    display: inline-block;
+}
+
+.experience-arrow-up{
+    transform: rotate(180deg);
+    display: flex;
+}
+
+
+#experience-button:hover{
+    color: #a5f05f;
 }
 
 .intro span{

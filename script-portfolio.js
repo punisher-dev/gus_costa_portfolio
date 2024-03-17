@@ -3,6 +3,7 @@ $(document).ready(function() {
     $('.experience-titles').click(function() {
         var accordion = $(this).data('accordion');
         $('#' + accordion).slideToggle(1000);
+        $(this).parent().find('#experience-button div').toggleClass('experience-arrow-up');
     });
 });
 
@@ -139,6 +140,4 @@ $('#start-button').click(function() {
 });
 
 flash();
-
-
 
