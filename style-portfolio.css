@@ -516,6 +516,49 @@ a:hover{
     z-index: 10000;
 }
 
+/* Scrollbar */
+/* dark */
+.dark::-webkit-scrollbar {
+    width: 15px;
+}
+
+.dark::-webkit-scrollbar-track {
+    background: #FFFFFF;
+}
+
+.dark::-webkit-scrollbar-thumb {
+    background-color: #202020;
+    border: 3px solid #FFFFFF;
+}
+
+/* dark */
+.light::-webkit-scrollbar {
+    width: 15px;
+}
+
+.light::-webkit-scrollbar-track {
+    background: #202020;
+}
+
+.light::-webkit-scrollbar-thumb {
+    background-color: #FFFFFF;
+    border: 3px solid #202020;
+}
+
+/* high-beam */
+.high-beam::-webkit-scrollbar {
+    width: 15px;
+}
+
+.high-beam::-webkit-scrollbar-track {
+    background: #AD00FF;
+    border: 3px solid #FFFFFF;
+}
+
+.high-beam::-webkit-scrollbar-thumb {
+    background-color: #6AAD2B;
+    border: 3px solid #FFFFFF;
+}
 
 
 /* Breakpoints */
