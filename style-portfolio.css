@@ -598,9 +598,14 @@ a:hover {
     #work-date {
         text-align: start;
     }
-
     .experience-content {
         padding: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #high-beam-cursor{
+        visibility: hidden;
     }
 }
 
