@@ -141,3 +141,25 @@ $('#start-button, #text-cursor').click(function () {
 
 flash();
 
+let prevX = 0;
+let prevY = 0;
+$(document).mousemove(function(e) {
+    if ($('body').hasClass('high-beam')) {
+        // Calculate the angle
+        let angle = Math.atan2(e.pageY - prevY, e.pageX - prevX) * 180 / Math.PI;
+
+        // Update the SVG position and rotation
+        $('#high-beam-cursor').css({
+            left: e.pageX,
+            top: e.pageY,
+            display: 'block',
+            transform: 'rotate(' + angle + 'deg)' // Rotate the SVG
+        });
+
+        // Store the current cursor position for the next mousemove event
+        prevX = e.pageX;
+        prevY = e.pageY;
+    } else {
+        $('#high-beam-cursor').hide(); // Hide the SVG
+    }
+});

@@ -1,4 +1,4 @@
-body{
+body {
     transition: all 1s ease;
 }
 
@@ -9,7 +9,7 @@ body{
 }
 
 /* dark, light and high beam modes */
-.dark{
+.dark {
     background-color: #202020;
     color: #FFFFFF;
     font-family: "Pixelify Sans", sans-serif;
@@ -18,7 +18,7 @@ body{
     font-style: normal;
 }
 
-.light{
+.light {
     background-color: #FFFFFF;
     color: #202020;
     font-family: "Pixelify Sans", sans-serif;
@@ -27,7 +27,8 @@ body{
     font-style: normal;
 }
 
-.high-beam{
+
+.high-beam {
     background-color: #202020;
     color: #AD00FF;
     -webkit-text-stroke-color: #FFFFFF;
@@ -39,23 +40,23 @@ body{
     font-style: normal;
 }
 
-.light .mode-toggle{
+.light .mode-toggle {
     rotate: 180deg;
 }
 
-.high-beam .mode-toggle{
+.high-beam .mode-toggle {
     rotate: 90deg;
 }
 
 /* Navigation */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 2rem;
 }
 
-ul{
+ul {
     display: flex;
     align-items: center;
 }
@@ -64,32 +65,32 @@ li {
     list-style-type: none;
     padding-left: 2rem;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     transition: all 0.5s ease;
 }
 
-li:hover{
+li:hover {
     color: #6AAD2B;
     cursor: pointer;
 }
 
 
-li img{
+li img {
     width: 1rem;
 }
 
-#logo{
+#logo {
     transition: all 0.5s ease;
 }
 
-#logo:hover{
+#logo:hover {
     color: #6AAD2B;
     cursor: pointer;
 }
 
 /* main */
-main{
+main {
     margin: 6rem 0;
     justify-content: center;
     align-items: center;
@@ -98,35 +99,35 @@ main{
     padding-bottom: 3rem;
 }
 
-p{
+p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-.dark h1 strong{
+.dark h1 strong {
     font-size: 42px;
     font-weight: bold;
     color: #FFFFFF;
 }
 
-.dark h1{
+.dark h1 {
     font-size: 36px;
     font-weight: 100;
     color: #FFFFFF;
 }
 
-.light h1 strong{
+.light h1 strong {
     font-size: 42px;
     font-weight: bold;
-    color:#202020;
+    color: #202020;
 }
 
-.light h1{
+.light h1 {
     font-size: 36px;
     font-weight: 100;
-    color:#202020;
+    color: #202020;
 }
 
-.high-beam #intro{
+.high-beam #intro {
     font-size: 42px;
     font-weight: bold;
     color: #6AAD2B;
@@ -135,7 +136,7 @@ p{
     text-shadow: 2px 2px 8px #FFFFFF;
 }
 
-.high-beam #intro-description{
+.high-beam #intro-description {
     font-size: 36px;
     font-weight: 100;
     color: #6AAD2B;
@@ -155,28 +156,29 @@ p{
     animation-delay: 3s;
 }
 
-#text-cursor{
+#text-cursor {
     font-size: 36px;
     align-items: baseline;
 }
 
-.dark #text-cursor:hover{
+.dark #text-cursor:hover {
     cursor: pointer;
     color: #FFFFFF;
 }
 
-.high-beam #text-cursor:hover{
+.high-beam #text-cursor:hover {
     cursor: pointer;
     color: #AD00FF;
 }
 
-.light #text-cursor:hover{
+.light #text-cursor:hover {
     cursor: pointer;
     color: #202020;
 }
 
 /* Footer */
-body, footer {
+body,
+footer {
     margin: 0;
     padding: 0;
 }
@@ -203,7 +205,7 @@ body, footer {
     background-color: #FFFFFF;
 }
 
-.high-beam  footer {
+.high-beam footer {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -233,13 +235,13 @@ footer ul li {
 }
 
 /* intro */
-.intro{
+.intro {
     margin-top: 8rem;
     margin-bottom: 8rem;
 }
 
 /* Projects */
-.row{
+.row {
     --bs-gutter-y: 1.5rem;
 }
 
@@ -247,7 +249,7 @@ footer ul li {
     margin-top: 3rem;
 }
 
-.projects h1{
+.projects h1 {
     margin-bottom: 3rem;
 }
 
@@ -273,26 +275,26 @@ footer ul li {
     transition: all 0.5s ease;
 }
 
-.project:hover{
+.project:hover {
     border-color: grey;
 }
 
-.projects p{
+.projects p {
     font-weight: 100;
 }
 
-.project-links{
+.project-links {
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
 }
 
-.project-links i{
+.project-links i {
     font-size: x-large;
     transition: all 0.5s ease;
 }
 
-.project-links i:hover{
+.project-links i:hover {
     color: #6AAD2B;
     cursor: pointer;
 }
@@ -327,25 +329,25 @@ footer ul li {
     margin-bottom: 2.5rem;
 }
 
-.experiences h1{
+.experiences h1 {
     margin-bottom: 3rem;
 }
 
 
-#work-date{
+#work-date {
     font-weight: 100;
     font-size: 25px;
     text-align: end;
     padding-bottom: 1rem;
 }
 
-.experience-titles{
+.experience-titles {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-.experience-links{
+.experience-links {
     display: flex;
     justify-content: center;
     font-size: x-large;
@@ -353,39 +355,39 @@ footer ul li {
     align-items: baseline;
 }
 
-.experience-links i{
+.experience-links i {
     font-size: large;
 }
 
-.experience-links p{
+.experience-links p {
     margin-right: 1rem;
 }
 
-.experience-links:hover{
+.experience-links:hover {
     color: #6AAD2B;
     cursor: pointer;
 }
 
-.experience-content{
+.experience-content {
     padding: 3rem;
     font-weight: 100;
 }
 
-.dark .experience span{
+.dark .experience span {
     padding: 4px 1rem;
     border-style: solid;
     border-color: #FFFFFF;
     margin: 1rem 0;
 }
 
-.light .experience span{
+.light .experience span {
     padding: 4px 1rem;
     border-style: solid;
     border-color: #202020;
     margin: 1rem 0;
 }
 
-.high-beam .experience span{
+.high-beam .experience span {
     padding: 4px 1rem;
     border-style: solid;
     border-color: #AD00FF;
@@ -393,16 +395,16 @@ footer ul li {
     margin: 1rem 0;
 }
 
-.experience-skills{
+.experience-skills {
     text-align: center;
     margin: 2rem 0 1rem 0;
 }
 
-.experience-titles{
+.experience-titles {
     cursor: pointer;
 }
 
-.experience:hover{
+.experience:hover {
     border-color: grey;
 }
 
@@ -410,19 +412,19 @@ footer ul li {
     display: none;
 }
 
-.dark a{
+.dark a {
     color: #FFFFFF;
     text-decoration: none;
     transition: all 0.5s ease;
 }
 
-.light a{
+.light a {
     color: #202020;
     text-decoration: none;
     transition: all 0.5s ease;
 }
 
-.high-beam a{
+.high-beam a {
     color: #AD00FF;
     -webkit-text-stroke-color: #FFFFFF;
     -webkit-text-stroke-width: 0.2px;
@@ -431,21 +433,21 @@ footer ul li {
     transition: all 0.5s ease;
 }
 
-a:hover{
+a:hover {
     color: #6AAD2B;
 }
 
-#hamburger{
+#hamburger {
     font-size: xx-large;
     display: none;
 }
 
-#back-button{
+#back-button {
     transform: rotate(90deg);
     font-size: 3rem;
 }
 
-#experience-button{
+#experience-button {
     text-align: end;
     font-size: 3rem;
     color: #6AAD2B;
@@ -456,66 +458,66 @@ a:hover{
     transition: all 0.5s ease;
 }
 
-#experience-button div{
+#experience-button div {
     transition: all 0.5s ease;
     display: inline-block;
 }
 
-.experience-arrow-up{
+.experience-arrow-up {
     transform: rotate(180deg);
     display: flex;
 }
 
 
-#experience-button:hover{
+#experience-button:hover {
     color: #a5f05f;
 }
 
-.intro span{
+.intro span {
     color: #6AAD2B;
     font: bold;
     font-size: 3rem;
 }
 
-#start-button{
+#start-button {
     transform: rotate(270deg);
     display: inline-block;
     font-size: 3rem;
     padding-right: 1rem;
 }
 
-#start-button:hover{
+#start-button:hover {
     cursor: pointer;
     color: #6AAD2B;
 }
 
-.overlay-links{
+.overlay-links {
     text-align: center;
     font-size: 3rem;
     margin: 8rem 0 8rem 0;
 }
 
-.overlay-links a{
+.overlay-links a {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
-.overlay-links a:hover{
+.overlay-links a:hover {
     color: #6AAD2B !important;
     cursor: pointer;
 }
 
-.overlay{
+.overlay {
     display: none;
 }
 
 /* sound effects */
-.sound-on{
+.sound-on {
     margin-right: -40px;
     z-index: 10000;
 }
 
-.sound-off{
+.sound-off {
     display: none;
     z-index: 10000;
 }
@@ -564,37 +566,54 @@ a:hover{
     border: 3px solid #FFFFFF;
 }
 
+#high-beam-cursor {
+    width: 32px;
+    height: 32px;
+    background: url('images/v-high-beam-cursor.svg') no-repeat;
+    position: absolute;
+    pointer-events: none;
+    display: none;
+    transform-origin: 50% 100%;
+}
+
 
 /* Breakpoints */
 @media only screen and (max-width: 576px) {
     nav ul li {
-      display: none;
+        display: none;
     }
-    #hamburger{
+
+    #hamburger {
         display: block;
     }
-    #logo{
+
+    #logo {
         font-size: 3rem;
     }
-    nav{
+
+    nav {
         align-items: baseline;
     }
-    #work-date{
+
+    #work-date {
         text-align: start;
     }
-    .experience-content{
+
+    .experience-content {
         padding: 0;
     }
-  }
+}
 
 @media only screen and (min-width: 577px) {
-    .dark .experience span{
+    .dark .experience span {
         margin: 1rem;
     }
-    .light .experience span{
+
+    .light .experience span {
         margin: 1rem;
     }
-    .high-beam .experience span{
+
+    .high-beam .experience span {
         margin: 1rem;
     }
 }
