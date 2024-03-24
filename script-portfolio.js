@@ -16,29 +16,17 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $('#back-button').click(function () {
+    $('#back-button, #projects-overlay, #experience-overlay').click(function () {
         $('.overlay').hide(500);
         $('#main-menu, main').show(1000);
     });
 });
 
-$(document).ready(function () {
-    $('#projects-overlay').click(function () {
-        $('.overlay').hide(500);
-        $('#main-menu, main').show(1000);
-    });
-});
-
-$(document).ready(function () {
-    $('#experience-overlay').click(function () {
-        $('.overlay').hide(500);
-        $('#main-menu, main').show(1000);
-    });
-});
 
 // different modes and high-beam sound effect
 $(document).ready(function () {
     var synthwave = new Audio('sounds/synthwave.m4a');
+    $('.sound-on').hide();
     $('.mode-toggle').click(function () {
         var body = $('body');
         if (body.hasClass('light')) {
@@ -122,7 +110,7 @@ $(document).ready(function () {
     });
 });
 
-// cursor flashing
+// press to start button flashing
 var isFlashing = true;
 
 function flash() {
@@ -141,6 +129,8 @@ $('#start-button, #text-cursor').click(function () {
 
 flash();
 
+
+// Cursor following
 let prevX = 0;
 let prevY = 0;
 $(document).mousemove(function(e) {
@@ -153,13 +143,13 @@ $(document).mousemove(function(e) {
             left: e.pageX,
             top: e.pageY,
             display: 'block',
-            transform: 'rotate(' + angle + 'deg)' // Rotate the SVG
+            transform: 'rotate(' + angle + 'deg)'
         });
 
         // Store the current cursor position for the next mousemove event
         prevX = e.pageX;
         prevY = e.pageY;
     } else {
-        $('#high-beam-cursor').hide(); // Hide the SVG
+        $('#high-beam-cursor').hide();
     }
 });
