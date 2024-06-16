@@ -576,6 +576,37 @@ a:hover {
     transform-origin: 50% 100%;
 }
 
+/* Animation on Scroll */
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.proj:nth-child(2){
+    transition-delay: 400ms;
+} 
+
+.proj:nth-child(3){
+    transition-delay: 800ms;
+} 
+.proj:nth-child(4){
+    transition-delay: 1200ms;
+} 
+
+.experience:nth-child(2){
+    transition-delay: 800ms;
+} 
+.experience:nth-child(3){
+    transition-delay: 800ms;
+} 
 
 /* Breakpoints */
 @media only screen and (max-width: 576px) {
